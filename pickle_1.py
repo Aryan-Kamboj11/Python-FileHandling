@@ -9,6 +9,6 @@ with open('pickle2.dat','wb') as pickle_file:
         age=int(input("Enter the age for the student: "))
         gender=input("Enter gender: ")
         degree=input("Enter the degree he/she is pursuing: ")
-        s=stu.Student(fname,lname,age,gender,degree)
+        s=stu.Student(fname,lname,gender,age,degree)
         pickle.dump(s,pickle_file)
         
